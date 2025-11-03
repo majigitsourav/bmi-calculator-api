@@ -35,5 +35,5 @@ const server = http.createServer((req, res) => {
 
 const PORT = PROCESS.ENV.PORT || 3000;
 server.listen(PORT, ()=>{
-    console.log("Server running at http://localhost:4000/api/bmi-calculate");
+    console.log("Server running at PORT ${PORT}");
 });
